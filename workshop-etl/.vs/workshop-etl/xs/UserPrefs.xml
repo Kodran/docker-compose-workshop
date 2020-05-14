@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{FE611A5D-7D2D-4E7D-8E4D-517DA94173E8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="workshop-etl/ExtensionMethod.cs">
+    <Files>
+      <File FileName="workshop-etl/Program.cs" Line="35" Column="1" />
+      <File FileName="workshop-etl/Dockerfile" Line="21" Column="1" />
+      <File FileName="workshop-etl/Models/Consumer.cs" Line="3" Column="26" />
+      <File FileName="workshop-etl/Models/ConsumerDTO.cs" Line="7" Column="22" />
+      <File FileName="workshop-etl/ConsumerContext.js" Line="24" Column="42" />
+      <File FileName="workshop-etl/ExtensionMethod.cs" Line="5" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="workshop-etl" expanded="True">
+            <Node name="workshop-etl" expanded="True">
+              <Node name="ExtensionMethod.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.workshop-etl PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ext_jcastrof/MELI/workshop/docker-compose/workshop-etl/workshop-etl/Program.cs" relfile="workshop-etl/Program.cs" line="27" column="1" />
+      <Breakpoint file="/Users/ext_jcastrof/MELI/workshop/docker-compose/workshop-etl/workshop-etl/Program.cs" relfile="workshop-etl/Program.cs" line="21" column="1" />
+      <Breakpoint file="/Users/ext_jcastrof/MELI/workshop/docker-compose/workshop-etl/workshop-etl/Program.cs" relfile="workshop-etl/Program.cs" line="24" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
