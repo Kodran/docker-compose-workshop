@@ -14,6 +14,7 @@
 # Tips
 
 Always run `make db` before run `make run`, it creates dbs schema
+Remember data bases are running in backgrond, if you want to stop them or remove the data, just type: `make stop`
 
 # Sites
 

@@ -23,13 +23,14 @@ const init = () => {
 }
 
 const dbConnection = () =>{
-    
+       
     mongodb()
     .then(() => {
         console.log("MongoDb connected");
     })
-    .catch((err) =>{
-        console.log(err)
+    .catch((err) =>{        
+        console.error('Failed to connect to mongo on startup - retrying in 5 sec', err);
+        setTimeout(dbConnection, 5000);     
     })
 }
 
