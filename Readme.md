@@ -10,3 +10,7 @@
 - make db (run mongodb, mongo express dashboard, mysql)
 - make run (run react frontend, nodejs backend api, netcore 3.1 job)
 - make stop (stop running containers and delete database volumes )
+
+# Tips
+
+- Always run `make db` before run `make run`, it creates dbs schema

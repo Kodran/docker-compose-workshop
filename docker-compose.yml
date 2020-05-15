@@ -11,8 +11,8 @@ services:
             PORT: 9000
             DB_HOST: host.docker.internal
             DB_PORT: 27017
-        volumes:
-            - ./workshop-backend/:/app
+        # volumes:
+        #     - ./workshop-backend/:/app            
     frontend:
         build:
             context: ./workshop-frontend
@@ -21,8 +21,8 @@ services:
             - 3000:80
         environment:
             API_URL: host.docker.internal:9000            
-        volumes:
-            - ./workshop-frontend/:/app
+        # volumes:
+        #     - ./workshop-frontend/:/app
     job:
         build:
             context: ./workshop-etl

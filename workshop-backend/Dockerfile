@@ -1,10 +1,16 @@
-FROM node:10
+FROM node:alpine
 
-# Set app working directory
+# Create app directory
 WORKDIR /app
 
-COPY . .
+# Install app dependencies
+COPY package*.json ./
 
+# If you are building your code for production
+# RUN npm ci --only=production
 RUN npm install
 
-CMD [ "node", "index.js" ]
+# Bundle app source
+COPY . .
+
+ENTRYPOINT [ "node", "index.js" ]
