@@ -13,4 +13,15 @@
 
 # Tips
 
-- Always run `make db` before run `make run`, it creates dbs schema
+Always run `make db` before run `make run`, it creates dbs schema
+
+# Sites
+
+Frontend:
+- http://localhost:3000
+
+Backend:
+- http://localhost:9000
+
+Mongo express:
+- http://localhost:8081
